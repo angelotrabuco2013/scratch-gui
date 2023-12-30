@@ -5,7 +5,7 @@
 		$uri = 'http://';
 	}
 	$uri .= $_SERVER['HTTP_HOST'];
-	header('Location: '.$uri.'/scratch-gui/index.html');
+	header('Location: '.$uri.'/scratch-gui/editor.html');
 	exit;
 ?>
 Something is wrong with the XAMPP installation :-(
